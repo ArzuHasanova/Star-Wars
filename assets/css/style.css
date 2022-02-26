@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/star_wars_xwing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.characters {
+  display: flex;
+  gap: 10px;
+  background: green;
+  max-width: fit-content;
+  overflow: hidden;
+}
+
+.enemies{
+    display: flex;
+  gap: 10px;
+  background: red;
+  max-width: fit-content;
+  margin-bottom: 10px;
+}
+
+
+.character{
+    background: #fff;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.enemies .character{
+    background: red;
+    padding: 0 5px;
+}
+
+.character h6{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.character img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.character p{
+    text-align: center;
+}
+
+.yourChar {
+  min-height: 100px;
+  max-width: fit-content;
+  margin-bottom: 10px;
+  background: green;
+  display: flex;
+}
+
+.defenderChar{
+    display: flex;
+    gap: 10px;
+    background: #000;
+    max-width: fit-content;
+    margin-bottom: 10px;
+}
+
+.defenderChar .character{
+    background: #000;
+    color: #fff;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
